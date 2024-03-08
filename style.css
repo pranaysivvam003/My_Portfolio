@@ -40,7 +40,7 @@ nav a {
 
 nav a:hover {
     color: #0ef;
-    padding: 6px 25px;
+    padding: 6px 20px;
 }
 
 nav a span {
@@ -1364,7 +1364,6 @@ nav {
 
     nav a:hover {
         color: #0ef;
-        padding: 6px 12px;
     }
 
     nav a span {
@@ -1741,6 +1740,9 @@ nav {
     .mainpglogo img {
         display: none;
     }
+    .nav a {
+        padding: 0px;
+    }
 
     .navtab {
         display: flex;
@@ -1749,7 +1751,8 @@ nav {
         gap: 0px;
     }
 
-    nav a{
+    .desknav{
+        display: none;
     }
 
     nav {

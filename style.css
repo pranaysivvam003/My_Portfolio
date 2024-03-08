@@ -253,7 +253,7 @@ nav {
     background: #0ef;
     color: #000;
     transform: scale(1.2);
-    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px;
+    /* box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px; */
 }
 
 .btn-box {
@@ -276,7 +276,7 @@ nav {
 
 .btn-box:hover {
     padding: 12px 50px;
-    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+    /* box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px; */
 
 }
 
@@ -999,7 +999,7 @@ nav {
     background: #0ef;
     color: #000;
     transform: scale(1.2);
-    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px;
+    /* box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px; */
 }
 
 .home-scic {
@@ -1120,7 +1120,7 @@ nav {
     .img {
         display: inline-block;
         left: 65%;
-        top: 180px;
+        top: 120px;
         bottom: 15%;
         margin-right: 5%;
         padding: 0;
@@ -1178,7 +1178,7 @@ nav {
 
     .btn-box:hover {
         padding: 12px 50px;
-        box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+        /* box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px; */
     }
 
     .home-content h4 span {
@@ -1484,7 +1484,7 @@ nav {
 
     .btn-box:hover {
         padding: 12px 50px;
-        box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+        /* box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px; */
 
     }
 
@@ -1560,7 +1560,7 @@ nav {
 
     .btn-box:hover {
         padding: 12px 50px;
-        box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+        /* box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px; */
     }
 
     /*about*/
@@ -1808,7 +1808,7 @@ nav {
 
     .btn-box:hover {
         padding: 12px 50px;
-        box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+        /* box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px; */
     }
 
     .img {
@@ -1839,11 +1839,8 @@ nav {
     }
 
     .about-img {
-        display: inline-block;
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-size: cover;
-        width: 50%;
+        display: none;
+     
 
     }
 
@@ -1874,7 +1871,7 @@ nav {
         line-height: 1.5;
         padding: 15px;
         font-family: sans-serif;
-        text-align: justify;
+        text-align: center;
         text-justify: inter-word;
     }
 

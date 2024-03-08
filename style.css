@@ -1750,7 +1750,7 @@ nav {
     }
 
     nav a{
-        border-radius: 1px solid white;
+        border: 1px solid white;
     }
 
     nav {
@@ -1827,10 +1827,9 @@ nav {
         align-items: center;
         gap: 5px;
         width: 100%;
-        padding: 8px;
+        padding: 12px;
         display: flex;
         height: fit-content;
-        border: 2px solid white;
         padding: 0px !important;
         margin: 0px !important;
         flex-direction: column;

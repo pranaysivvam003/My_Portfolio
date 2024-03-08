@@ -1751,7 +1751,7 @@ nav {
 
     nav a:hover {
         color: #0ef;
-        padding: 6px 10px;
+        padding: 6px;
     }
 
     nav {
@@ -1828,6 +1828,7 @@ nav {
         align-items: center;
         gap: 5px;
         width: 100%;
+        padding: 8px;
         display: flex;
         height: fit-content;
         border: 2px solid white;

@@ -1749,9 +1749,8 @@ nav {
         gap: 0px;
     }
 
-    nav a:hover {
-        color: #0ef;
-        padding: 6px;
+    nav a{
+        border-radius: 1px solid white;
     }
 
     nav {

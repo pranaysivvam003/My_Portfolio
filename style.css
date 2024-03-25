@@ -370,7 +370,218 @@ nav {
     text-justify: inter-word;
 }
 
+/* EDUCATION */
+.education {
+    width: 100%;
+    background-color: black;
+}
 
+.flexbox {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 20px 0px;
+    z-index: 1;
+}
+
+.flexcard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 20%;
+    gap: 15px;
+    align-items: center;
+    height: 350px;
+    border-radius: 20px;
+}
+
+.instname {
+    max-width: 250px;
+    align-self: center;
+    line-height: 22px;
+}
+
+
+.flexcardNumber {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin: 10px 0px;
+    border-radius: 0px 50px 50px 0px;
+    font-family: 'Jost', sans-serif;
+    color: white;
+    text-shadow: 0px 3px 5px black;
+    font-weight: 500;
+    font-size: 20px;
+    position: relative;
+}
+
+
+
+.flexcardText {
+    font-family: 'Jost', sans-serif;
+    text-align: center;
+    font-weight: 300;
+    color: #000;
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+}
+
+.flexcardNumber:before {
+    content: '';
+    width: 34px;
+    height: 90px;
+    position: absolute;
+    left: -33px;
+    top: 0px;
+    border-radius: 50px 0px 0px 50px;
+    z-index: 1;
+    background: -moz-linear-gradient(bottom, #95B7A2, #AED2BC);
+}
+
+.flexcardNumber:after {
+    content: '';
+    width: 25px;
+    height: 40px;
+    position: absolute;
+    left: -25px;
+    bottom: -40px;
+    border-radius: 50px 0px 0px 50px;
+    z-index: 1;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+
+img.flexcardimgItem {
+    width: 50%;
+}
+
+/* GREEN CARD */
+
+.flexcardGreen {
+    background: #f7ffff;
+    box-shadow: 4px 8px 1px #22ff47;
+}
+
+.flexcardNumberGreen {
+    background: #FDFFFE;
+    background: -webkit-linear-gradient(right, #FDFFFE, #22ff47);
+    background: -moz-linear-gradient(right, #FDFFFE, #22ff47);
+    background: linear-gradient(to left, #FDFFFE, #22ff47);
+    box-shadow: 0px 2px 2px #22ff47;
+}
+
+.flexcardNumberGreen:before {
+    background: #22ff47;
+}
+
+.flexcardNumberGreen:after {
+    background: #3f7c4a;
+}
+
+.flexcard.flexcardGreen button {
+    background-color: #3f7c4a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.flexcard.flexcardGreen button:hover {
+    padding: 10px 40px;
+    background-color: black;
+    color: white;
+}
+
+/* BLUE CARD */
+
+.flexcardBlue {
+    background: #f7ffff;
+    box-shadow: 4px 8px 1px #1af7ff;
+}
+
+.flexcardNumberBlue {
+    background: #FDFFFE;
+    background: -webkit-linear-gradient(right, #FDFFFE, #92E8EB);
+    background: -moz-linear-gradient(right, #FDFFFE, #92E8EB);
+    background: linear-gradient(to left, #FDFFFE, #92E8EB);
+    box-shadow: 0px 2px 2px #92f6fa;
+}
+
+.flexcardNumberBlue:before {
+    background: #92E8EB;
+}
+
+.flexcardNumberBlue:after {
+    background: #3c787a;
+}
+
+.flexcard.flexcardBlue button {
+    background-color: #3c787a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.flexcard.flexcardBlue button:hover {
+    padding: 10px 40px;
+    background-color: black;
+    color: white;
+}
+
+/* ORANGE CARD */
+
+.flexcardOrange {
+    background: #f7ffff;
+    box-shadow: 4px 8px 1px #dd6b00;
+}
+
+.flexcardNumberOrange {
+    background: #FDFFFE;
+    background: -webkit-linear-gradient(right, #FDFFFE, #dd6b00);
+    background: -moz-linear-gradient(right, #FDFFFE, #dd6b00);
+    background: linear-gradient(to left, #FDFFFE, #dd6b00);
+    box-shadow: 0px 2px 2px #dd6b00;
+}
+
+.flexcardNumberOrange:before {
+    background: #dd6b00;
+}
+
+.flexcardNumberOrange:after {
+    background: #ac7541;
+}
+
+.flexcard.flexcardOrange button {
+    background-color: #ac7541;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.flexcard.flexcardOrange button:hover {
+    padding: 10px 40px;
+    background-color: black;
+    color: white;
+}
 
 
 /* Skills */
@@ -455,11 +666,9 @@ nav {
 .GIT,
 .SKILL1,
 .SKILL2 {
-    /* border: 2px solid rgb(0, 0, 0); */
     border-radius: 15px;
     padding: 5px;
     display: flex;
-    width: 250px;
     font-size: 22px;
     color: white;
     flex-direction: column;
@@ -515,23 +724,7 @@ nav {
     justify-content: space-evenly;
 }
 
-
-
-
-.educet{
-    width: 100%;
-    height: 500px;
-    gap: 10px;
-    display: flex;
-    background-color: rgb(26, 26, 26);
-}
-.education{
-    width: 50%;
-    border: 2px solid white;
-    padding: 10px;
-}
-
-
+/* EDUCATION */
 
 
 
@@ -1315,6 +1508,83 @@ nav {
     .button-50{
         padding: 10px 30px;
     }
+    .HTML,
+.CSS,
+.JAVA,
+.BOOTSTRAP,
+.JAVASCRIPT,
+.REACT,
+.NODE,
+.MONGODB,
+.MYSQL,
+.GIT,
+.SKILL1,
+.SKILL2 {
+    width: 45%;
+}
+
+.flexbox {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+    flex-direction: column;
+}
+
+.flexcard {
+    width: 100%;
+}
+
+.flexcardNumber:before {
+    display: none;
+}
+
+.flexcardNumber:after {
+    display: none;
+}
+
+.flexcardNumber {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin: 10px 0px;
+    border-radius: 50px 50px 50px 50px;
+    font-family: 'Jost', sans-serif;
+    color: white;
+    text-shadow: 0px 3px 5px black;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.flexcardGreen {
+    width: 100%;
+    border: 2px solid green;
+    background: #f7ffff;
+    box-shadow: none;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.flexcardOrange {
+    width: 100%;
+    border: 2px solid rgb(209, 113, 3);
+    background: #f7ffff;
+    box-shadow: none;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.flexcardBlue {
+    width: 100%;
+    border: 2px solid rgb(9, 115, 148);
+    background: #f7ffff;
+    box-shadow: none;
+    padding: 20px;
+    box-sizing: border-box;
+}
 
 
 
@@ -1506,7 +1776,70 @@ nav {
     }
 
 
+    .flexbox {
+        width: 100%;
+        display: flex;
+        gap: 10px;
+        box-sizing: border-box;
+        padding: 10px;
+        flex-direction: column;
+    }
 
+    .flexcard {
+        width: 100%;
+    }
+
+    .flexcardNumber:before {
+        display: none;
+    }
+
+    .flexcardNumber:after {
+        display: none;
+    }
+
+    .flexcardNumber {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        margin: 10px 0px;
+        border-radius: 50px 50px 50px 50px;
+        font-family: 'Jost', sans-serif;
+        color: white;
+        text-shadow: 0px 3px 5px black;
+        font-weight: 500;
+        font-size: 20px;
+    }
+
+    .flexcardGreen {
+        width: 100%;
+        border: 2px solid green;
+        background: #f7ffff;
+        box-shadow: none;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+
+    .flexcardOrange {
+        width: 100%;
+        border: 2px solid rgb(209, 113, 3);
+        background: #f7ffff;
+        box-shadow: none;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+
+    .flexcardBlue {
+        width: 100%;
+        border: 2px solid rgb(9, 115, 148);
+        background: #f7ffff;
+        box-shadow: none;
+        padding: 20px;
+        box-sizing: border-box;
+        padding: 15px;
+        box-sizing: border-box;
+    }
 
 
 
@@ -1869,11 +2202,78 @@ nav {
         text-justify: inter-word;
     }
 
+    /* EDUCATION */
+    .flexbox {
+        width: 100%;
+        display: flex;
+        gap: 10px;
+        box-sizing: border-box;
+        padding: 10px;
+        flex-direction: column;
+    }
+
+    .flexcard {
+        width: 100%;
+    }
+
+    .flexcardNumber:before {
+        display: none;
+    }
+
+    .flexcardNumber:after {
+        display: none;
+    }
+
+    .flexcardNumber {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        margin: 10px 0px;
+        border-radius: 50px 50px 50px 50px;
+        font-family: 'Jost', sans-serif;
+        color: white;
+        text-shadow: 0px 3px 5px black;
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+    .flexcardGreen {
+        width: 100%;
+        border: 2px solid green;
+        background: #f7ffff;
+        box-shadow: none;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .flexcardOrange {
+        width: 100%;
+        border: 2px solid rgb(209, 113, 3);
+        background: #f7ffff;
+        box-shadow: none;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .flexcardBlue {
+        width: 100%;
+        border: 2px solid rgb(9, 115, 148);
+        background: #f7ffff;
+        box-shadow: none;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+
+
     /*skills*/
     #Skills {
         background-color: #000;
         width: 100%;
     }
+
 
     .subtitle {
         text-align: center;
@@ -1924,30 +2324,22 @@ nav {
     .heading1:hover {
         padding: 5px 35px;
     }
+    .HTML,
+.CSS,
+.JAVA,
+.BOOTSTRAP,
+.JAVASCRIPT,
+.REACT,
+.NODE,
+.MONGODB,
+.MYSQL,
+.GIT,
+.SKILL1,
+.SKILL2 {
+    width: 100%;
+}
 
-    .radial-bar .text {
-        left: 25%;
-    }
 
-    .bar .info .addhtml::before {
-        content: "90%";
-    }
-
-    .bar .info .addcss::before {
-        content: "80%";
-    }
-
-    .bar .info .addpy::before {
-        content: "75%";
-    }
-
-    .bar .info .addjava::before {
-        content: "50%";
-    }
-
-    .bar .info .addc::before {
-        content: "50%";
-    }
 
     /*project*/
     .main-text {

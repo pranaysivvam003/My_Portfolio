@@ -234,7 +234,6 @@ nav {
 
 }
 
-.home-sci {}
 
 .home-sci a {
     display: inline-flex;
@@ -727,8 +726,66 @@ img.flexcardimgItem {
 /* EDUCATION */
 
 
+/* CERTIFICATIONS */
+.certification {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    padding: 12px;
+}
 
+.certtot {
+    width: 100%;
+    padding: 50px;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+}
 
+.w50 {
+    width: 45%;
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    padding: 6px 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    color: black;
+    align-items: center;
+    text-align: center;
+    min-height: 240px;
+}
+
+.w50:hover {
+    box-shadow: 6px -6px teal;
+
+}
+
+.w50 h3 {
+    font-size: 22px;
+}
+
+.w50 h3 span {
+    font-size: 14px;
+}
+.w50 button{
+    padding: 8px;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+.w50 button:hover{
+    padding: 8px 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
 
 
 
@@ -1585,7 +1642,14 @@ img.flexcardimgItem {
     padding: 20px;
     box-sizing: border-box;
 }
-
+.certtot {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.w50{
+    width: 90%;
+}
 
 
 }
@@ -2051,6 +2115,17 @@ img.flexcardimgItem {
         transition: all .4s;
     }
 
+    .certtot {
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        padding: 24px;
+    }
+    .w50{
+        width: 100%;
+    }
+
+
 }
 
 @media (max-width: 426px) {
@@ -2247,6 +2322,9 @@ img.flexcardimgItem {
         padding: 10px;
         box-sizing: border-box;
     }
+    .flexcardNumberGreen {
+        background: rgb(63,124,74);
+    }
 
     .flexcardOrange {
         width: 100%;
@@ -2256,6 +2334,9 @@ img.flexcardimgItem {
         padding: 10px;
         box-sizing: border-box;
     }
+    .flexcardNumberOrange {
+        background: rgb(172,117,65);
+    }
 
     .flexcardBlue {
         width: 100%;
@@ -2264,6 +2345,21 @@ img.flexcardimgItem {
         box-shadow: none;
         padding: 10px;
         box-sizing: border-box;
+    }
+    .flexcardNumberBlue {
+        background: rgb(60,120,122);
+    }
+
+    .certtot {
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        padding: 2px;
+    }
+    .w50{
+        width: 100%;
+        height: fit-content;
+        padding: 15px 10px;
     }
 
 

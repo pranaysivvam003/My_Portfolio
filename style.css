@@ -257,7 +257,6 @@ nav {
 .home-sci a:hover {
     background: #0ef;
     color: #000;
-    transform: scale(1.2);
     /* box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px; */
 }
 
@@ -655,16 +654,27 @@ img.flexcardimgItem {
 
 .HTML,
 .CSS,
-.JAVA,
-.BOOTSTRAP,
 .JAVASCRIPT,
+.BOOTSTRAP,
+.FIGMA,
+.RESPONSIVE_DESIGN,
+.UI_UX_DESIGN,
+.PROTOTYPING,
+.WIREFRAMING,
+.ADOBE_PHOTOSHOP,
+.CANVA,
+.WEB_DESIGN,
+.TROUBLESHOOTING,
+.SYSTEM_ADMINISTRATOR,
+.TECHINICAL_SUPPORT,
+.NETWORKING,
+.JIRA,
+/* .JAVASCRIPT,
 .REACT,
 .NODE,
 .MONGODB,
-.MYSQL,
-.GIT,
-.SKILL1,
-.SKILL2 {
+.MYSQL, */
+.GIT  {
     border-radius: 15px;
     padding: 5px;
     display: flex;
@@ -679,32 +689,49 @@ img.flexcardimgItem {
 
 .HTML,
 .CSS,
-.JAVA,
-.BOOTSTRAP,
 .JAVASCRIPT,
-.REACT,
-.NODE,
-.MONGODB,
-.MYSQL,
-.GIT,
-.SKILL1,
-.SKILL2 img {
+.BOOTSTRAP,
+.FIGMA,
+.RESPONSIVE_DESIGN,
+.UI_UX_DESIGN,
+.PROTOTYPING,
+.WIREFRAMING,
+.ADOBE_PHOTOSHOP,
+.CANVA,
+.WEB_DESIGN,
+.TROUBLESHOOTING,
+.SYSTEM_ADMINISTRATOR,
+.TECHINICAL_SUPPORT,
+.NETWORKING,
+.JIRA,
+.GIT  img {
     background-position: 100% 100%;
     background-size: cover;
 }
 
 .HTML:hover,
 .CSS:hover,
-.JAVA:hover,
-.BOOTSTRAP:hover,
 .JAVASCRIPT:hover,
-.REACT:hover,
-.NODE:hover,
-.MONGODB:hover,
-.MYSQL:hover,
-.GIT:hover,
-.SKILL1:hover,
-.SKILL2:hover {
+.BOOTSTRAP:hover,
+.FIGMA:hover,
+.RESPONSIVE_DESIGN:hover,
+.UI_UX_DESIGN:hover,
+.PROTOTYPING:hover,
+.WIREFRAMING:hover,
+.ADOBE_PHOTOSHOP:hover,
+.CANVA:hover,
+.WEB_DESIGN:hover,
+.TROUBLESHOOTING:hover,
+.SYSTEM_ADMINISTRATOR:hover,
+.TECHINICAL_SUPPORT:hover,
+.NETWORKING:hover,
+.JIRA:hover,
+/* .JAVASCRIPT,
+.REACT,
+.NODE,
+.MONGODB,
+.MYSQL, */
+.GIT:hover{
     box-shadow: 1px 1px 20px #012290f7, 1px 1px 20px #0053b8f7;
     border: none;
 
@@ -733,6 +760,7 @@ img.flexcardimgItem {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 1px;
     background-color: black;
     padding: 12px;
 }
@@ -741,6 +769,7 @@ img.flexcardimgItem {
     width: 100%;
     padding: 50px;
     gap: 10px;
+    
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -749,6 +778,7 @@ img.flexcardimgItem {
 
 .w50 {
     width: 45%;
+    height: 330px;
     background-color: rgb(255, 255, 255);
     box-sizing: border-box;
     padding: 6px 20px;
@@ -1337,6 +1367,11 @@ img.flexcardimgItem {
         display: flex;
 
     }
+    .certtot{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
 }
 
 
@@ -1566,17 +1601,28 @@ img.flexcardimgItem {
         padding: 10px 30px;
     }
     .HTML,
-.CSS,
-.JAVA,
-.BOOTSTRAP,
-.JAVASCRIPT,
-.REACT,
-.NODE,
-.MONGODB,
-.MYSQL,
-.GIT,
-.SKILL1,
-.SKILL2 {
+    .CSS,
+    .JAVASCRIPT,
+    .BOOTSTRAP,
+    .FIGMA,
+    .RESPONSIVE_DESIGN,
+    .UI_UX_DESIGN,
+    .PROTOTYPING,
+    .WIREFRAMING,
+    .ADOBE_PHOTOSHOP,
+    .CANVA,
+    .WEB_DESIGN,
+    .TROUBLESHOOTING,
+    .SYSTEM_ADMINISTRATOR,
+    .TECHINICAL_SUPPORT,
+    .NETWORKING,
+    .JIRA,
+    /* .JAVASCRIPT,
+    .REACT,
+    .NODE,
+    .MONGODB,
+    .MYSQL, */
+    .GIT {
     width: 45%;
 }
 
@@ -2421,17 +2467,28 @@ img.flexcardimgItem {
         padding: 5px 35px;
     }
     .HTML,
-.CSS,
-.JAVA,
-.BOOTSTRAP,
-.JAVASCRIPT,
-.REACT,
-.NODE,
-.MONGODB,
-.MYSQL,
-.GIT,
-.SKILL1,
-.SKILL2 {
+    .CSS,
+    .JAVASCRIPT,
+    .BOOTSTRAP,
+    .FIGMA,
+    .RESPONSIVE_DESIGN,
+    .UI_UX_DESIGN,
+    .PROTOTYPING,
+    .WIREFRAMING,
+    .ADOBE_PHOTOSHOP,
+    .CANVA,
+    .WEB_DESIGN,
+    .TROUBLESHOOTING,
+    .SYSTEM_ADMINISTRATOR,
+    .TECHINICAL_SUPPORT,
+    .NETWORKING,
+    .JIRA,
+    /* .JAVASCRIPT,
+    .REACT,
+    .NODE,
+    .MONGODB,
+    .MYSQL, */
+    .GIT  {
     width: 100%;
 }
 

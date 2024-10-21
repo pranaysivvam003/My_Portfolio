@@ -827,6 +827,17 @@ img.flexcardimgItem {
     background-color: #000;
 
 }
+.prj-view-button{
+    padding: 8px 16px;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+.prj-view-button button:hover{
+    padding: 8px 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
 
 #atabbtn{
     margin-top: 5px;
@@ -914,7 +925,7 @@ img.flexcardimgItem {
 .serv-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 5px;
+    gap: 6px;
     align-items: center;
     justify-content: space-around;
 }
@@ -929,14 +940,12 @@ img.flexcardimgItem {
 }
 
 .row img {
-    width: 100%;
-    max-width: 300px;
-    max-height: 300px;
-
+    width: 300px;
+    height: 200px;
     border-radius: 15px;
     display: block;
     transition: transform 0.5s;
-    padding: 10px;
+    padding: 6px;
 }
 
 .layer {
